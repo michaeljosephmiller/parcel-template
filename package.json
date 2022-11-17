@@ -1,0 +1,20 @@
+{
+  "name": "web-app-template",
+  "version": "1.0.0",
+  "description": "Template repo for starting a web app.",
+  "source": "src/index.ejs",
+  "scripts": {
+    "start": "parcel src/index.ejs"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "author": "Michael J. Miller",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "@types/node": "^18.11.9",
+    "parcel": "^2.8.0",
+    "parcel-transformer-ejs": "^1.0.0",
+    "postcss": "^8.4.19",
+    "postcss-import": "^15.0.0"
+  }
+}
